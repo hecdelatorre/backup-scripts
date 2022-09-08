@@ -2,7 +2,7 @@
 count=0
 for i in *
 do
-  if [[ $i == *.tar.* ]]
+  if [[ $i == *.tar* ]]
   then
     echo "File $((count++))"
     tar -xvf "$i" && rm -vf "$i"
