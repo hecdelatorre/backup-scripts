@@ -3,7 +3,7 @@ count=0
 
 echo -e "Choose the desired format\n0 - tar\n1 - tar.xz\n2 - tar.gz\n3 - tar.bz2\n4 - tar.tbz\n5 - tar.tb2"
 
-read -t 2 option
+read -t 4 option
 
 for i in *
 do
