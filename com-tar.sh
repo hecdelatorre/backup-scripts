@@ -14,24 +14,24 @@ do
 
     if [[ $option == 0 ]]
     then
-      tar -cf "$i.tar" "$i" && rm -vrf "$i"
+      tar -cf "$i.tar" "$i" && rm -rf "$i"
     elif [[ $option == 1 ]]
     then
-      tar -Jcf "$i.tar.xz" "$i" && rm -vrf "$i"
+      tar -Jcf "$i.tar.xz" "$i" && rm -rf "$i"
     elif [[ $option == 2 ]]
     then
-      tar -czf "$i.tar.gz" "$i" && rm -vrf "$i"
+      tar -czf "$i.tar.gz" "$i" && rm -rf "$i"
     elif [[ $option == 3 ]]
     then
-      tar -czf "$i.tar.bz2" "$i" && rm -vrf "$i"
+      tar -czf "$i.tar.bz2" "$i" && rm -rf "$i"
     elif [[ $option == 4 ]]
     then
-      tar -czf "$i.tar.tbz" "$i" && rm -vrf "$i"
+      tar -czf "$i.tar.tbz" "$i" && rm -rf "$i"
     elif [[ $option == 5 ]]
     then
-      tar -czf "$i.tar.tb2" "$i" && rm -vrf "$i"
+      tar -czf "$i.tar.tb2" "$i" && rm -rf "$i"
     else
-      tar -Jcf "$i.tar.xz" "$i" && rm -vrf "$i"
+      tar -Jcf "$i.tar.xz" "$i" && rm -rf "$i"
     fi
     
     echo "End $(date +"%H:%M:%S - %d/%m/%Y")"
