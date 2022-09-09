@@ -7,7 +7,7 @@ read -t 4 option
 
 for i in *
 do
-  if ! [[ $i == "com-tar.sh" ]] && ! [[ $i == *.tar.* ]]
+  if ! [[ $i == "packaging.sh" ]] && ! [[ $i == *.tar.* ]]
   then
     echo "File $((count++))"
     echo $i
