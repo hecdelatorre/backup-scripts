@@ -9,5 +9,5 @@ sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/backup-scripts/-/raw/main/pa
 **Unpack**
 
 ```shell
-sh -c "$(curl -fsSL )"
+sh -c "$(curl -fsSL https://gitlab.com/hecdelatorre/backup-scripts/-/raw/main/unpack.sh)"
 ```
